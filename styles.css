@@ -15,7 +15,9 @@ body {
   background-color: #1f2937;
   display: flex;
   flex-direction: row;
-  padding: 10px 150px;
+  /* padding: 10px 150px; */
+  align-items: first baseline;
+  justify-content: space-around;
 }
 
 #header #header__header {
@@ -26,4 +28,23 @@ body {
 #about__art #about__p {
   font-size: 18px;
   color: #e5e7eb;
+}
+
+#header__navbar #header__navbar--ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+#header__navbar--ul .navbar--li {
+  display: flex;
+  gap: 15px;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.navbar--li,
+.navbar__li--a {
+  color: #e5e7eb;
+  text-decoration: none;
 }
