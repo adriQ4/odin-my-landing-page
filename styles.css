@@ -17,7 +17,7 @@ body {
   flex-direction: row;
   align-items: baseline;
   justify-content: space-between;
-  padding: 10px 80px 100px 80px;
+  padding: 10px 80px 80px 80px;
 }
 
 #header #header__header {
@@ -105,13 +105,12 @@ body {
 }
 
 #projects {
-  background-color: #e5e7eb;
-  width: 100vw;
   color: #1f2937;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 120px;
 }
 
 #projects #projects__fgrs--cntr {
@@ -122,16 +121,19 @@ body {
 }
 
 #projects #projects__h1 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
   margin: 25px;
 }
 
 .projects__figures {
   width: 150px;
   height: 150px;
-  max-width: 250px;
-  max-height: 250px;
+  max-width: 200px;
+  max-height: 200px;
   text-align: center;
-  border: #3882f6 solid 4px;
+  border: #3882f6 solid 3px;
   border-radius: 10px;
 }
 
@@ -143,3 +145,64 @@ body {
   border-radius: 10px;
   padding: 1px;
 }
+
+#training {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 80px;
+  gap: 5px;
+}
+
+#training #training__h1 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 900;
+}
+#training__h1--span {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* #skills__h1 {
+  align-self: flex-start;
+  justify-self: center;
+} */
+#training__cntr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+#training #training__skills {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+#training__p {
+  display: inline-block;
+}
+
+/* .sections--skills {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  flex-grow: 1;
+}
+
+#skills__git--h1,
+#skills__back--h1,
+#skills__front--h1 {
+
+} */
+
+/* a ver si soy capaz de alinea los putas skills pa un ejercicio de mierda */
