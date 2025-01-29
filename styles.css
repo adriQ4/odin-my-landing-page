@@ -130,8 +130,8 @@ body {
 .projects__figures {
   width: 150px;
   height: 150px;
-  max-width: 200px;
-  max-height: 200px;
+  max-width: fit-content;
+  max-height: fit-content;
   text-align: center;
   border: #3882f6 solid 3px;
   border-radius: 10px;
@@ -146,6 +146,10 @@ body {
   padding: 1px;
 }
 
+.bolder {
+  font-weight: bold;
+}
+
 #training {
   background-color: #e5e7eb;
   color: #1f2937;
@@ -153,56 +157,57 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0 80px;
-  gap: 5px;
+  padding: 20px 80px 50px;
 }
 
 #training #training__h1 {
-  text-align: center;
   font-size: 28px;
   font-weight: 900;
 }
 #training__h1--span {
   font-size: 18px;
   font-weight: 400;
+  margin-bottom: 10px;
 }
 
-/* #skills__h1 {
-  align-self: flex-start;
-  justify-self: center;
-} */
 #training__cntr {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 10px;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+#training__p {
+  font-weight: 400;
+  margin-bottom: 20px;
 }
 #training #training__skills {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-around;
-  gap: 20px;
+  gap: 30px;
 }
 
 #training__p {
   display: inline-block;
 }
 
-/* .sections--skills {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  flex-shrink: 0;
-  flex-grow: 1;
+.sections--skills {
+  max-width: 200px;
 }
 
-#skills__git--h1,
-#skills__back--h1,
-#skills__front--h1 {
+#training__last--p {
+  font-weight: 200;
+}
 
-} */
+/** ################## section4 ################## */
 
-/* a ver si soy capaz de alinea los putas skills pa un ejercicio de mierda */
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+}
